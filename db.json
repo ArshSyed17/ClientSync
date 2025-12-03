@@ -1,0 +1,147 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "name": "Asha Web Studio",
+      "company": "Asha Web Studio",
+      "email": "contact@ashastudio.com",
+      "phone": "9876543210",
+      "address": "123 Design Street, Creative City",
+      "notes": "Prefers weekly updates",
+      "createdAt": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "name": "arsh",
+      "company": "srm",
+      "email": "arsh@gmail.com",
+      "phone": "1234567890",
+      "address": "mangalagiri",
+      "notes": "",
+      "createdAt": "2025-11-29T07:42:46.405Z",
+      "id": "f02b"
+    },
+    {
+      "id": "d176",
+      "name": "Sairam",
+      "company": "SRM ",
+      "email": "sairam@gmail.com",
+      "phone": "",
+      "address": "",
+      "notes": "",
+      "createdAt": "2025-11-29T07:49:48.913Z"
+    },
+    {
+      "id": "a773",
+      "name": "Surya",
+      "company": "",
+      "email": "surya@gmail.com",
+      "phone": "",
+      "address": "",
+      "notes": "",
+      "createdAt": "2025-12-02T04:43:53.110Z"
+    }
+  ],
+  "projects": [
+    {
+      "clientIds": [
+        "1",
+        "f02b"
+      ],
+      "title": "E-commerce Website Redesign",
+      "description": "Complete redesign of the e-commerce platform with modern UI/UX",
+      "status": "completed",
+      "startDate": "2025-11-15T00:00:00.000Z",
+      "endDate": "2026-01-15T00:00:00.000Z",
+      "amount": 5000,
+      "createdAt": "2025-11-01T00:00:00.000Z",
+      "id": "1"
+    },
+    {
+      "clientIds": [
+        "a773",
+        "d176"
+      ],
+      "title": "SRM WORk",
+      "description": "",
+      "status": "in-progress",
+      "startDate": "2025-11-29T00:00:00.000Z",
+      "endDate": "2025-12-31T00:00:00.000Z",
+      "amount": 1000,
+      "createdAt": "2025-11-29T07:51:00.792Z",
+      "id": "c7a2"
+    },
+    {
+      "id": "4414",
+      "clientIds": [],
+      "title": "SRM Work",
+      "description": "vasbvabaw",
+      "status": "in-progress",
+      "startDate": "2025-11-29T00:00:00.000Z",
+      "endDate": "2025-11-30T00:00:00.000Z",
+      "amount": 1000,
+      "createdAt": "2025-11-29T07:53:07.184Z"
+    }
+  ],
+  "invoices": [
+    {
+      "invoiceNumber": "INV-2025-001",
+      "clientId": "1",
+      "projectId": "1",
+      "amount": 2500,
+      "date": "2025-11-20T00:00:00.000Z",
+      "dueDate": "2025-12-20T00:00:00.000Z",
+      "status": "paid",
+      "description": "50% upfront payment for E-commerce Website Redesign",
+      "createdAt": "2025-11-20T00:00:00.000Z",
+      "id": "1"
+    },
+    {
+      "id": "7f30",
+      "invoiceNumber": "INV-2025-522",
+      "clientId": "d176",
+      "projectId": "c7a2",
+      "amount": 500,
+      "date": "2025-11-29T00:00:00.000Z",
+      "dueDate": "2025-12-31T00:00:00.000Z",
+      "status": "cancelled",
+      "description": "",
+      "createdAt": "2025-11-29T08:00:28.610Z"
+    },
+    {
+      "invoiceNumber": "INV-2025-111",
+      "clientId": "d176",
+      "projectId": "c7a2",
+      "amount": 500,
+      "date": "2025-11-29T00:00:00.000Z",
+      "dueDate": "2025-11-29T00:00:00.000Z",
+      "status": "pending",
+      "description": "",
+      "createdAt": "2025-11-29T08:01:23.364Z",
+      "id": "6366"
+    },
+    {
+      "id": "8e17",
+      "invoiceNumber": "INV-2025-113",
+      "clientId": "a773",
+      "projectId": "c7a2",
+      "amount": 500,
+      "date": "2025-11-29T00:00:00.000Z",
+      "dueDate": "2025-12-31T00:00:00.000Z",
+      "status": "paid",
+      "description": "",
+      "createdAt": "2025-12-02T04:46:13.928Z"
+    },
+    {
+      "id": "7cb8",
+      "invoiceNumber": "INV-2025-360",
+      "clientId": "a773",
+      "projectId": "c7a2",
+      "amount": 750,
+      "date": "2025-12-03T00:00:00.000Z",
+      "dueDate": "2025-12-03T00:00:00.000Z",
+      "status": "paid",
+      "description": "",
+      "createdAt": "2025-12-03T05:50:08.763Z"
+    }
+  ]
+}
